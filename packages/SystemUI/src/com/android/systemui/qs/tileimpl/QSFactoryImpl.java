@@ -52,6 +52,7 @@ import com.android.systemui.qs.tiles.RotationLockTile;
 import com.android.systemui.qs.tiles.SoundTile;
 import com.android.systemui.qs.tiles.ScreenshotTile;
 import com.android.systemui.qs.tiles.ScreenrecordTile;
+import com.android.systemui.qs.tiles.ScreenStabilizationTile;
 import com.android.systemui.qs.tiles.SyncTile;
 import com.android.systemui.qs.tiles.UsbTetherTile;
 import com.android.systemui.qs.tiles.SmartPixelsTile;
@@ -152,6 +153,8 @@ public class QSFactoryImpl implements QSFactory {
                 return new FontTile(mHost);
             case "navbar":
                 return new NavBarTile(mHost);
+            case "screenstabilization":
+                return new ScreenStabilizationTile(mHost);
         }
 
         // Intent tiles.
