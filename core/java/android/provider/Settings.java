@@ -5712,6 +5712,12 @@ public final class Settings {
         public static final String BATTERY_FULLY_CHARGED_NOTIF = "battery_fully_charged_notif";
 
         /**
+         * Select which lockscreen date style to display
+         * @hide
+         */
+        public static final String LOCKSCREEN_DATE_SELECTION = "lockscreen_date_selection";
+
+        /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
