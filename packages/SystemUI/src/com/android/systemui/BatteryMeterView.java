@@ -359,7 +359,7 @@ public class BatteryMeterView extends LinearLayout implements
         int percentageStyle = Settings.System.getIntForUser(getContext().getContentResolver(),
                 SHOW_BATTERY_PERCENT, 0, mUser);
         mShowPercent = percentageStyle;
-        boolean showAnyway = alwaysShowPercentage() || mPowerSave || mCharging || mShowEstimate;
+        boolean showAnyway = alwaysShowPercentage();
         if (!showAnyway
                 && getMeterStyle() == BatteryMeterDrawableBase.BATTERY_STYLE_HIDDEN) {
             // don't show percentage
