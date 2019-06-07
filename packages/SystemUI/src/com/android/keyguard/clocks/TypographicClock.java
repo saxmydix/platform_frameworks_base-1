@@ -21,7 +21,6 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 import com.android.keyguard.R;
-import com.android.systemui.statusbar.policy.ConfigurationController;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
