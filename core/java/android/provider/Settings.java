@@ -4969,6 +4969,12 @@ public final class Settings {
                 new SettingsValidators.InclusiveIntegerRangeValidator(0, 1);
 
         /**
+         * Show lockscreen icon
+         * @hide
+         */   
+        public static final String SHOW_LOCKSCREEN_ICON = "show_lockscreen_icon";
+
+        /**
          * Change quick settings tiles animation style
          *
          * @hide
@@ -5971,6 +5977,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(STATUS_BAR_CUSTOM_HEADER_PROVIDER);
             PRIVATE_SETTINGS.add(STATUS_BAR_CUSTOM_HEADER_IMAGE);
             PRIVATE_SETTINGS.add(STATUS_BAR_FILE_HEADER_IMAGE);
+            PRIVATE_SETTINGS.add(SHOW_LOCKSCREEN_ICON);
 
             // Pocket mode handler.
             PRIVATE_SETTINGS.add(POCKET_JUDGE);
