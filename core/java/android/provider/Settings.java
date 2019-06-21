@@ -4973,6 +4973,14 @@ public final class Settings {
          * @hide
          */   
         public static final String SHOW_LOCKSCREEN_ICON = "show_lockscreen_icon";
+        
+        /**
+         * Show lockscreen indicator text
+         *
+         * @hide
+         */
+
+        public static final String SHOW_LOCKSCREEN_INDICATOR_DISPLAY = "show_lockscreen_indicator_display";
 
         /**
          * Change quick settings tiles animation style
@@ -5978,6 +5986,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(STATUS_BAR_CUSTOM_HEADER_IMAGE);
             PRIVATE_SETTINGS.add(STATUS_BAR_FILE_HEADER_IMAGE);
             PRIVATE_SETTINGS.add(SHOW_LOCKSCREEN_ICON);
+            PRIVATE_SETTINGS.add(SHOW_LOCKSCREEN_INDICATOR_DISPLAY);
 
             // Pocket mode handler.
             PRIVATE_SETTINGS.add(POCKET_JUDGE);
