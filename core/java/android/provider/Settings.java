@@ -10008,6 +10008,13 @@ public final class Settings {
         /** @hide */
         private static final Validator QUICK_SETTINGS_TILES_VIBRATE_VALIDATOR =
                 BOOLEAN_VALIDATOR;
+                
+        /**
+         * Whether to show or hide the keyguard multiuser switch
+         *
+         * @hide
+         */
+        public static final String KEYGUARD_MULTIUSER_SWITCH = "keyguard_multiuser_switch";        
 
         /**
          * @hide

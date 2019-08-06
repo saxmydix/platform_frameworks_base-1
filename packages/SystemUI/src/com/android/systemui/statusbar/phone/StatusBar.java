@@ -6059,6 +6059,9 @@ public class StatusBar extends SystemUI implements DemoMode, TunerService.Tunabl
             resolver.registerContentObserver(Settings.System.getUriFor(
                     Settings.System.LOCKSCREEN_DATE_SELECTION),
                     false, this, UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.Secure.getUriFor(
+                    Settings.Secure.KEYGUARD_MULTIUSER_SWITCH),
+                    false, this, UserHandle.USER_ALL);        
         }
 
         @Override
@@ -6096,6 +6099,9 @@ public class StatusBar extends SystemUI implements DemoMode, TunerService.Tunabl
             } else if (uri.equals(Settings.System.getUriFor(
                     Settings.System.USE_BLACKAF_THEME))) {
                 updateTheme(false);
+            } else if (uri.equals(Settings.Secure.getUriFor(
+                    Settings.Secure.KEYGUARD_MULTIUSER_SWITCH))) {
+                updateKeyguardStatusBarSettings();
             } else if (uri.equals(Settings.System.getUriFor(
                     Settings.System.LOCKSCREEN_ALBUM_ART_FILTER))) {
                 updateLockscreenFilter();
@@ -6125,6 +6131,7 @@ public class StatusBar extends SystemUI implements DemoMode, TunerService.Tunabl
             updateTheme(false);
             updateTickerAnimation();
             updateTickerTickDuration();
+            updateKeyguardStatusBarSettings();
             updateLockscreenFilter();
             setHeadsUpStoplist();
             setHeadsUpBlacklist();
@@ -6148,6 +6155,10 @@ public class StatusBar extends SystemUI implements DemoMode, TunerService.Tunabl
 
     private void updateKeyguardStatusSettings() {
         mNotificationPanel.updateKeyguardStatusSettings();
+    }
+    
+    private void updateKeyguardStatusBarSettings() {
+        mKeyguardStatusBar.updateSettings();
     }
 
     private void setOldMobileType() {
