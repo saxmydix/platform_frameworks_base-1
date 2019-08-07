@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019 The PixelDust Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string-array name="type_clock_hours">
+        <item>"Twaalf uur"</item>
+        <item>"Eén uur"</item>
+        <item>"Twee uur"</item>
+        <item>"Drie uur"</item>
+        <item>"Vier uur"</item>
+        <item>"Vijf uur"</item>
+        <item>"Zes uur"</item>
+        <item>"Zeven uur"</item>
+        <item>"Acht uur"</item>
+        <item>"Negen uur"</item>
+        <item>"Tien uur"</item>
+        <item>"Elf uur"</item>
+        <item>"Twaalf uur"</item>
+        <item>"Eén uur"</item>
+        <item>"Twee uur"</item>
+        <item>"Drie uur"</item>
+        <item>"Vier uur"</item>
+        <item>"Vijf uur"</item>
+        <item>"Zes uur"</item>
+        <item>"Zeven uur"</item>
+        <item>"Acht uur"</item>
+        <item>"Negen uur"</item>
+        <item>"Tien uur"</item>
+        <item>"Elf uur"</item>
+    </string-array>
+
+    <string-array name="type_clock_minutes">
+        <item>stipt</item>
+        <item>"en één"</item>
+        <item>"en twee"</item>
+        <item>"en drie"</item>
+        <item>"en vier"</item>
+        <item>"en vijf"</item>
+        <item>"en zes"</item>
+        <item>"en zeven"</item>
+        <item>"en acht"</item>
+        <item>"en negen"</item>
+        <item>tien</item>
+        <item>elf</item>
+        <item>twaalf</item>
+        <item>dertien</item>
+        <item>veertien</item>
+        <item>vijftien</item>
+        <item>zestien</item>
+        <item>zeventien</item>
+        <item>achtien</item>
+        <item>negentien</item>
+        <item>twintig</item>
+        <item>eenentwintig</item>
+        <item>tweeëntwintig</item>
+        <item>drieëntwintig</item>
+        <item>vierentwintig</item>
+        <item>vijfentwintig</item>
+        <item>zesentwintig</item>
+        <item>zevenentwintig</item>
+        <item>achtentwintig</item>
+        <item>negenentwintig</item>
+        <item>dertig</item>
+        <item>eenendertig</item>
+        <item>tweeëndertig</item>
+        <item>drieëndertig</item>
+        <item>vierendertig</item>
+        <item>vijfendertig</item>
+        <item>zesendertig</item>
+        <item>zevenendertig</item>
+        <item>achtendertig</item>
+        <item>negenendertig</item>
+        <item>veertig</item>
+        <item>eenenveertig</item>
+        <item>tweeënveertig</item>
+        <item>drieënveertig</item>
+        <item>vierenveertig</item>
+        <item>vijfenveertig</item>
+        <item>zesenveertig</item>
+        <item>zevenenveertig</item>
+        <item>achtenveertig</item>
+        <item>negenenveertig</item>
+        <item>vijftig</item>
+        <item>eenenvijftig</item>
+        <item>tweeënvijftig</item>
+        <item>drieënvijftig</item>
+        <item>vierenvijftig</item>
+        <item>vijfenvijftig</item>
+        <item>zesenvijftig</item>
+        <item>zevenenvijftig</item>
+        <item>achtenvijftig</item>
+        <item>negenenvijftig</item>
+    </string-array>
+</resources>
