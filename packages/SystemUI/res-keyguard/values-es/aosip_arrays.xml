@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019 The PixelDust Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string-array name="type_clock_hours">
+        <item>doce</item>
+        <item>una</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>cuatro</item>
+        <item>cinco</item>
+        <item>seis</item>
+        <item>siete</item>
+        <item>ocho</item>
+        <item>nueve</item>
+        <item>diez</item>
+        <item>once</item>
+        <item>doce</item>
+        <item>trece</item>
+        <item>catorce</item>
+        <item>quince</item>
+        <item>dieciseis</item>
+        <item>diecisiete</item>
+        <item>dieciocho</item>
+        <item>diecinueve</item>
+        <item>veinte</item>
+        <item>veintiuno</item>
+        <item>veintidos</item>
+        <item>veintitres</item>
+    </string-array>
+
+    <string-array name="type_clock_minutes">
+        <item>en punto</item>
+        <item>y uno</item>
+        <item>y dos</item>
+        <item>y tres</item>
+        <item>y cuatro</item>
+        <item>y cinco</item>
+        <item>y seis</item>
+        <item>y siete</item>
+        <item>y ocho</item>
+        <item>y nueve</item>
+        <item>y diez</item>
+        <item>y once</item>
+        <item>y doce</item>
+        <item>y trece</item>
+        <item>y catorce</item>
+        <item>y quince</item>
+        <item>y dieciseis</item>
+        <item>y diecisiete</item>
+        <item>y dieciocho</item>
+        <item>y diecinueve</item>
+        <item>y veinte</item>
+        <item>"y veintiuno"</item>
+        <item>"y veintidos"</item>
+        <item>"y veintitres"</item>
+        <item>"y veinticuatro"</item>
+        <item>"y veinticinco"</item>
+        <item>"y veintiseis"</item>
+        <item>"y veintisiete"</item>
+        <item>"y veintiocho"</item>
+        <item>"y veintinueve"</item>
+        <item>y treinta</item>
+        <item>"treinta y uno"</item>
+        <item>"treinta y dos"</item>
+        <item>"treinta y tres"</item>
+        <item>"treinta y cuatro"</item>
+        <item>"treinta y cinco"</item>
+        <item>"treinta y seis"</item>
+        <item>"treinta y siete"</item>
+        <item>"treinta y ocho"</item>
+        <item>"treinta y nueve"</item>
+        <item>y cuarenta</item>
+        <item>"cuarenta y uno"</item>
+        <item>"cuarenta y dos"</item>
+        <item>"cuarenta y tres"</item>
+        <item>"cuarenta y cuatro"</item>
+        <item>"cuarenta y cinco"</item>
+        <item>"cuarenta y seis"</item>
+        <item>"cuarenta y siete"</item>
+        <item>"cuarenta y ocho"</item>
+        <item>"cuarenta y nueve"</item>
+        <item>y cincuenta</item>
+        <item>"cincuenta y uno"</item>
+        <item>"cincuenta y dos"</item>
+        <item>"cincuenta y tres"</item>
+        <item>"cincuenta y cuatro"</item>
+        <item>"cincuenta y cinco"</item>
+        <item>"cincuenta y seis"</item>
+        <item>"cincuenta y siete"</item>
+        <item>"cincuenta y ocho"</item>
+        <item>"cincuenta y nueve"</item>
+    </string-array>
+</resources>
