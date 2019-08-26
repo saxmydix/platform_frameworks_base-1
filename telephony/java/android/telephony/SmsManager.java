@@ -1386,24 +1386,6 @@ public final class SmsManager {
         }
     }
 
-    /**
-     * Get the capacity count of sms on Icc card
-     *
-     * @return the capacity count of sms on Icc card
-     * @hide
-     */
-    public int getSmsCapacityOnIcc() {
-        int ret = -1;
-        try {
-            ISms iccISms = getISmsService();
-            if (iccISms != null) {
-                ret = iccISms.getSmsCapacityOnIccForSubscriber(getSubscriptionId());
-            }
-        } catch (RemoteException ex) {
-            //ignore it
-        }
-        return ret;
-    }
 
     // see SmsMessage.getStatusOnIcc
 
